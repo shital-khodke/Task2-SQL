@@ -1,0 +1,1 @@
+copy practice from 'E:/sql/Book5.csv' DELIMITER ',' csv header;

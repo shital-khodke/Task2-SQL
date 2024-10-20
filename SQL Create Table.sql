@@ -1,0 +1,1 @@
+ create table practice(Emp_Id serial primary key,Full_Name varchar not null,Job_Title varchar not null,Department varchar not null,Gender varchar(6) not null,Ethnicity varchar not null,Age int check(age > 18),Hire_Date date not null,Annual_Salary decimal(10,2) not null,City varchar not null default 'Mumbai');
